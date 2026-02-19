@@ -2,8 +2,8 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '0e01f134-a552-437a-be65-455b75832d25'
-  webAppName: 'sowmiyawebapp1'
+  azureServiceConnectionId: '954afdb6-4648-4e01-a6ab-ca72cfe3ccff'
+  webAppName: 'sowmiya-app1'
   pythonVersion: '3.11'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: testeeeappee
+    environment: sowmiya-app1
 
     strategy:
       runOnce:
